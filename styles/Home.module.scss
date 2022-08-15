@@ -1,0 +1,17 @@
+@import "colors";
+@import "functions";
+
+.container {
+  padding: 0 toRem(32);
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $textGreen;
+}
