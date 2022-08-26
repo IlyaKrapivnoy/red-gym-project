@@ -4,6 +4,7 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
 import Image from 'next/image';
+import Navbar from '../Navbar';
 
 export default function Header() {
   return (
@@ -20,6 +21,7 @@ export default function Header() {
             width={218}
             height={28}
           />
+          <Navbar />
           <Button color='inherit'>Login</Button>
         </Toolbar>
       </AppBar>
