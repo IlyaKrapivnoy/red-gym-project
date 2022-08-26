@@ -8,7 +8,10 @@ import Image from 'next/image';
 export default function Header() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position='static'>
+      <AppBar
+        position='static'
+        className='flex h-24 justify-center bg-slate-900'
+      >
         <Toolbar className='flex justify-between'>
           <Image
             className='cursor-pointer'
