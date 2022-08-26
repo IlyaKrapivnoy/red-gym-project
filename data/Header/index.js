@@ -1,4 +1,4 @@
-import { nanoid } from 'nanoid';
+import { nanoid } from '@reduxjs/toolkit';
 import { BLOG, CONTACTS, HOME, VISITORS } from '../../paths';
 
 export const navItems = [
