@@ -4,7 +4,9 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
 import Image from 'next/image';
+import Link from 'next/link';
 import Navbar from '../Navbar';
+import { HOME } from '../../../../paths';
 
 export default function Header() {
   return (
@@ -14,13 +16,17 @@ export default function Header() {
         className='flex h-24 justify-center bg-slate-900'
       >
         <Toolbar className='flex justify-between'>
-          <Image
-            className='cursor-pointer'
-            src='/logo.png'
-            alt='Picture of the author'
-            width={218}
-            height={28}
-          />
+          <Link href={HOME}>
+            <a>
+              <Image
+                src='/logo.png'
+                alt='Picture of the author'
+                width={218}
+                height={28}
+              />
+            </a>
+          </Link>
+
           <Navbar />
           <Button color='inherit'>Login</Button>
         </Toolbar>
