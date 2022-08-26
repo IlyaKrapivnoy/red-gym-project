@@ -5,25 +5,29 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="container"
-      >
+      <div>
         <main
           class="main"
         >
-          hello
+          <h1
+            class="text-3xl font-bold text-red-500 uppercase"
+          >
+            Red gym project
+          </h1>
         </main>
       </div>
     </div>
   </body>,
   "container": <div>
-    <div
-      class="container"
-    >
+    <div>
       <main
         class="main"
       >
-        hello
+        <h1
+          class="text-3xl font-bold text-red-500 uppercase"
+        >
+          Red gym project
+        </h1>
       </main>
     </div>
   </div>,
