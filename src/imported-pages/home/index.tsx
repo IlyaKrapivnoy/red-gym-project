@@ -2,7 +2,6 @@ import type { NextPage } from 'next';
 import React from 'react';
 import Head from 'next/head';
 import styles from '../../../styles/Home.module.scss';
-import Header from '../../components/Header';
 
 const Home: NextPage = () => {
   return (
@@ -13,7 +12,6 @@ const Home: NextPage = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <Header />
       <main className={styles.main}>
         <h1 className='text-3xl font-bold text-red-500 uppercase'>
           Red gym project

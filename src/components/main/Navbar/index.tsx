@@ -2,8 +2,8 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Link from 'next/link';
-import { navItems } from '../../../data/Header';
-import { INavbar } from '../../../types/ui';
+import { navItems } from '../../../../data/Header';
+import { INavbar } from '../../../../types/ui';
 
 const Navbar = () => {
   return (
