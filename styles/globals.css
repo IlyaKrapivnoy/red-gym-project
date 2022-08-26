@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html,
 body {
   padding: 0;
@@ -15,3 +16,8 @@ a {
 }
 
 /*# sourceMappingURL=globals.css.map */
+=======
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+>>>>>>> 18be78a746d665e7d6ba5d919a51fbd0616ca4fe
