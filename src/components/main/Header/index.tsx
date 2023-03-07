@@ -8,7 +8,11 @@ import Link from 'next/link';
 import Navbar from '../Navbar';
 import { HOME } from '../../../../paths';
 
-export default function Header() {
+interface HeaderProps {
+  onLoginClick: () => void;
+}
+
+export default function Header({ onLoginClick }: HeaderProps) {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar
